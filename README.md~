@@ -1,4 +1,7 @@
-README
+MAXimumSecurityBot
+==================
+
+<a href="url">Here is a website we created for this package!</a>
 
 Our package comes with five different scripts that need to be running: bark.py, fire.py, follow.py, move.py, and tracking.py. move.py allows the robot to autonomously navigate an area it is placed in, tracking.py uses kinect sensor data coupled with openni software to detect persons. If it detects a person, it will publish to move.py to get the robot to stop autonomously navigating, and begin following. follow.py will then begin to follow the person detected by tracking.py and will then publish to bark.py. bark.py will then continue to play barking noises in attempt to ward off the person, then it will publish to fire.py. fire.py will then continously fire at the person while follower.py is still running.
 
